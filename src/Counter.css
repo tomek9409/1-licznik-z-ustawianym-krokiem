@@ -1,0 +1,36 @@
+.counter {
+  padding: 30px;
+  width: 500px;
+  left: 0;
+  right: 0;
+  margin: 30px auto;
+  position: relative;
+  font-size: 30px;
+  font-weight: 500;
+  border: 3px solid;
+  border-image-source: linear-gradient(to left, #3ad55c, #3ac3d5);
+  border-image-slice: 1;
+}
+
+.counter span.value {
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.counter .show-clock {
+  display: inline-block;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: 10px;
+  color: lightcoral;
+}
+
+.counter .show-clock:hover {
+  text-decoration: underline;
+  color: red;
+  cursor: pointer;
+  font-size: 12px;
+  transition: 0.3s linear;
+}
+
